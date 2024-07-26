@@ -84,7 +84,7 @@ document.getElementById('csvFileInput').addEventListener('change', function(even
         complete: main
     });
 });
-document.getElementById("clacBtn").onclick = (e)=>{
+document.getElementById("clacBtn")..addEventListener("click" , (e)=>{
     if(!res){
         return
     }
@@ -102,7 +102,7 @@ document.getElementById("clacBtn").onclick = (e)=>{
     Total = (sumH * rateValue) + ((sumM / 60)*rateValue) 
     document.getElementById("result").textContent = `Your pay is ${Total}DA`
 
-}
+})
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
