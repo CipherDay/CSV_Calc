@@ -3,6 +3,7 @@
     "short_name": "CSV Calculator",
     "description": "CSV Calculator PWA",
     "start_url": "/index.html",
+    "scope": "/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
