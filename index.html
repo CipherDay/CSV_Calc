@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Calculator</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+<body>
+    <div id="main">
+    <input type="file" id="csvFileInput" accept=".csv" />
+
+    <div id="tableCont"></div>
+    <label for="timeIn">Clock In:</label>
+    <select name="timeIn" id="timeIn"></select>
+    <label for="timeOut">Clock Out:</label>
+    <select name="timeOut" id="timeOut"></select>
+    <label for="rate">Rate:</label>
+    <input type="number" name="rate" id="rate">
+    <button id="clacBtn">Calculat</button>
+    <h1 id="result"></h1>
+    </div>
+    <script src="/js/papaparse.min.js"></script>
+    <script src="/js/app.js"></script>
+
+</body>
+</html>
