@@ -2,7 +2,7 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
       caches.open('v1').then(function(cache) {
         return cache.addAll([
-          '/js/',
+            '/',
           '/js/papaparse.min.js',
           '/index.html',
           '/js/app.js',
