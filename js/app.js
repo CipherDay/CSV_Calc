@@ -84,7 +84,7 @@ document.getElementById('csvFileInput').addEventListener('change', function(even
         complete: main
     });
 });
-document.getElementById("clacBtn")..addEventListener("click" , (e)=>{
+document.getElementById("clacBtn").addEventListener("click" , (e)=>{
     if(!res){
         return
     }
