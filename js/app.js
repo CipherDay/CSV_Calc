@@ -1,7 +1,7 @@
 var res;
 
 function parseTimeString(timeString) {
-    const [hours, minutes] = timeString.split(':').map(Number);
+    const [hours, minutes] = timeString.trim().split(':').map(Number);
     return { hours, minutes };
 }
 
