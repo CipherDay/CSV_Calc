@@ -100,7 +100,7 @@ document.getElementById("clacBtn").addEventListener("click" , (e)=>{
         sumM = sumM +TD.minutes
     }
     Total = (sumH * rateValue) + ((sumM / 60)*rateValue) 
-    document.getElementById("result").textContent = `Your pay is ${Total}DA`
+    document.getElementById("result").textContent = `Your pay is ${Total}DA \n You have ${sumH} Hours and ${sumM} Minutes`
 
 })
 if ('serviceWorker' in navigator) {
